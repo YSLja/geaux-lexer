@@ -1,0 +1,1 @@
+int void		while ___R 0X642A "S\'\0\xe7r\103\v"	"S\n\02\xBC\026" "F\\\0\xcE\""	"e\b\10\xB\?" 	 "y\a\025\xcdrL"	//zeu  

@@ -1,0 +1,22 @@
+token literal names:
+null
+'+'
+
+token symbolic names:
+null
+ADD
+
+rule names:
+ALPHA
+DIGIT
+ADD
+
+channel names:
+DEFAULT_TOKEN_CHANNEL
+HIDDEN
+
+mode names:
+DEFAULT_MODE
+
+atn:
+[4, 0, 1, 13, 6, -1, 2, 0, 7, 0, 2, 1, 7, 1, 2, 2, 7, 2, 1, 0, 1, 0, 1, 1, 1, 1, 1, 2, 1, 2, 0, 0, 3, 1, 0, 3, 0, 5, 1, 1, 0, 2, 2, 0, 65, 90, 97, 122, 1, 0, 48, 57, 10, 0, 5, 1, 0, 0, 0, 1, 7, 1, 0, 0, 0, 3, 9, 1, 0, 0, 0, 5, 11, 1, 0, 0, 0, 7, 8, 7, 0, 0, 0, 8, 2, 1, 0, 0, 0, 9, 10, 7, 1, 0, 0, 10, 4, 1, 0, 0, 0, 11, 12, 5, 43, 0, 0, 12, 6, 1, 0, 0, 0, 1, 0, 0]

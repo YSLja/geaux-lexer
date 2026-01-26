@@ -1,0 +1,1 @@
+string	) __QAD	8 0xa0	0xA  "e\r\1\x4\t"	/////*0XCP*/ 
