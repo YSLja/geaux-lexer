@@ -28,46 +28,151 @@ fragment ALNUM
 WS : [ \t\r\n]+ -> skip ;
 
 // Keywords
-VAR      : 'var';
-FUN      : 'fun';
-WHILE    : 'while';
-CONST    : 'const';
-STRING   : 'string';
-VOID     : 'void';
-RETURN   : 'return';
-IF       : 'if';
-ELSE     : 'else';
-BREAK    : 'break';
-INT      : 'int';
-TYPEDEF  : 'typedef';
-STRUCT   : 'struct';
-UNION    : 'union';
+VAR      
+   : 
+   'var'
+   ;
+FUN      
+   : 
+   'fun'
+   ;
+WHILE    
+   : 
+   'while'
+   ;
+CONST    
+   : 
+   'const'
+   ;
+STRING   
+   : 
+   'string'
+   ;
+VOID     
+   : 
+   'void'
+   ;
+RETURN   
+   : 
+   'return'
+   ;
+IF       
+   : 
+   'if'
+   ;
+ELSE     
+   : 
+   'else'
+   ;
+BREAK    
+   : 
+   'break'
+   ;
+INT      
+   : 
+   'int'
+   ;
+TYPEDEF  
+   : 
+   'typedef'
+   ;
+STRUCT   
+   : 
+   'struct'
+   ;
+UNION    
+   : 
+   'union'
+   ;
 
 // Operators (mult-char first)
-ANDAND   : '&&';
-OROR     : '||';
-ARROW    : '->';
+ANDAND   
+   : 
+   '&&'
+   ;
+OROR     
+   : 
+   '||'
+   ;
+ARROW    
+   : 
+   '->'
+   ;
 
-LT       : '<';
-STAR     : '*';
-PLUS     : '+';
-TILDE    : '~';
-ASSIGN   : '=';
-DOT      : '.';
+LT       
+   : 
+   '<'
+   ;
+STAR     
+   : 
+   '*'
+   ;
+PLUS     
+   : 
+   '+'
+   ;
+TILDE    
+   : 
+   '~'
+   ;
+ASSIGN   
+   : 
+   '='
+   ;
+DOT      
+   : 
+   '.'
+   ;
 
 // Punctuators
-LBRACE   : '{';
-RBRACE   : '}';
-COMMA : ',';
-LPAREN   : '(';
-RPAREN   : ')';
-AMP   : '&';
-BAR   : '|';
-BANG  : '!';
-SEMI  : ';';
-COLON : ':';
-LBRACK   : '[';
-RBRACK   : ']';
+LBRACE   
+   : 
+   '{'
+   ;
+RBRACE   
+   : 
+   '}'
+   ;
+COMMA 
+   : 
+   ','
+   ;
+LPAREN   
+   : 
+   '('
+   ;
+RPAREN   
+   : 
+   ')'
+   ;
+AMP   
+   : 
+   '&'
+   ;
+BAR   
+   : 
+   '|'
+   ;
+BANG  
+   : 
+   '!'
+   ;
+SEMI  
+   : 
+   ';'
+   ;
+COLON 
+   : 
+   ':'
+   ;
+LBRACK   
+   : 
+   '['
+   ;
+RBRACK   
+   : 
+   ']'
+   ;
 
 INTEGER_CONSTANT  : DIGIT+ ;
 
