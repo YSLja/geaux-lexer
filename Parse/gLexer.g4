@@ -56,7 +56,7 @@ fragment HEXADECIMAL
 fragment ESC_SEQ
    :	'\\' ['"\\abfnrtv?]		//other escape sequences
    |	'\\' [0-7]+			//octal escape sequences
-   | 	'\\' 'x' HEXADECIMAL+		//hexidecimal escape sequences
+   | 	'\\' 'x' HEXADECIMAL HEXADECIMAL?		//hexidecimal escape sequences
    ;
 
 //Whitespace
@@ -143,7 +143,11 @@ STRING_ESC
    : ESC_SEQ
    {
 	String esc = getText().substring(1);
-	sb.append((char) stringToInt(esc));
+	if (esc.equals("\"")) {
+		sb.append("\\\"");
+	} else {
+		sb.append((char) stringToInt(esc));
+	}
    } -> skip
    ;
 
